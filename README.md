@@ -1,21 +1,5 @@
 # Dracula for [Roam Research](https://roamresearch.com/)
-
-> A dark theme for [Roam Research](https://roamresearch.com/).
-
-![Screenshot](screenshot.png)
-
-## Install
-
-All instructions can be found at [draculatheme.com/roam-research](https://draculatheme.com/roam-research).
-
-## Team
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/roam-research/graphs/contributors).
-
-[![Neal Grantham](https://avatars0.githubusercontent.com/u/4433521?v=3&s=70)](https://github.com/nsgrantham) |
---- |
-[Neal Grantham](https://github.com/nsgrantham) |
-
-## License
-
-[MIT License](./LICENSE)
+原来的Repo好像没人维护了，RoamResearch更新后这个主题的样式有点受影响，而我自己还挺喜欢这个主题的，所以自己Fork一个做更新，尽力让它可以兼容新版本的RoamResearch
+### 更新记录
+【2022年1月6日】
+- 修复多行代码块展示异常的问题，修改后基本和Dracula原版样式差不多了
