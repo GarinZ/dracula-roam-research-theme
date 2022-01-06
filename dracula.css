@@ -395,6 +395,7 @@ a:hover {
 
 .bp3-elevation-3 {
   background-color: var(--current-line) !important;
+  color: var(--foreground);
 }
 
 .bp3-elevation-3 .dont-unfocus-block[style~="background-color:"] {
