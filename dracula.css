@@ -506,7 +506,7 @@ a:hover {
 }
 
 
-/* Inline code blocks with ` */
+/* Inline code blocks with*/
 
 code {
   color: var(--orange);
@@ -515,54 +515,54 @@ code {
 }
 
 
-/* Multiline code blocks with ``` */
+/* Multiline code blocks with */
 
 .bp3-popover-text {
   color: var(--foreground);
 }
 
-.CodeMirror {
+.cm {
   background-color: var(--background);
   color: var(--foreground);
   border: 2px solid var(--background2);
 }
 
-.CodeMirror-scrollbar-filler,
-.CodeMirror-gutter-filler {
+.cm-scrollbar-filler,
+.cm-gutter-filler {
   background-color: var(--background);
 }
 
-.CodeMirror-gutters {
+.cm-gutters {
   border-right: 1px solid var(--background);
   background-color: var(--background);
 }
 
-.CodeMirror-linenumber {
+.cm-linenumber {
   color: var(--comment);
 }
 
-.CodeMirror-guttermarker {
+.cm-guttermarker {
   color: var(--background);
 }
 
-.CodeMirror-guttermarker-subtle {
+.cm-guttermarker-subtle {
   color: var(--comment);
 }
 
-.CodeMirror-cursor {
+.cm-cursor {
   border-left: 1px solid var(--foreground);
 }
 
-.CodeMirror div.CodeMirror-secondarycursor {
+.cm div.cm-secondarycursor {
   border-left: 1px solid var(--current-line);
 }
 
-.cm-fat-cursor .CodeMirror-cursor {
+.cm-fat-cursor .cm-cursor {
   background: var(--bullet-inner);  /* best guess */
   color: var(--bullet-outer);       /* best guess */
 }
 
-.CodeMirror-ruler {
+.cm-ruler {
   border-left: 1px solid var(--current-line);
 }
 
@@ -659,40 +659,43 @@ code {
   color: var(--red);
 }
 
-div.CodeMirror span.CodeMirror-matchingbracket {
+div.cm span.cm-matchingbracket {
   color: var(--foreground);
 }
 
-div.CodeMirror span.CodeMirror-nonmatchingbracket {
+div.cm span.cm-nonmatchingbracket {
   color: var(--red);
 }
 
-.CodeMirror-matchingtag {
+.cm-matchingtag {
  background: var(--orange);  /* best guess */
 }
 
-.CodeMirror-activeline-background {
+.cm-activeline-background {
  background: var(--current-line);
 }
 
-.CodeMirror-selected {
+.cm-selected {
   background: var(--current-line);
 }
 
-.CodeMirror-focused .CodeMirror-selected {
+.cm-focused .cm-selected {
   background: var(--current-line);
 }
 
-.CodeMirror-line::selection,
-.CodeMirror-line>span::selection,
-.CodeMirror-line>span>span::selection {
+.cm-line::selection,
+.cm-line>span::selection,
+.cm-line>span>span::selection {
   background: var(--current-line);
 }
 
-.CodeMirror-line::-moz-selection,
-.CodeMirror-line>span::-moz-selection,
-.CodeMirror-line>span>span::-moz-selection {
+.cm-line::-moz-selection,
+.cm-line>span::-moz-selection,
+.cm-line>span>span::-moz-selection {
   background: var(--current-line);
+}
+.cm-line {
+    color: #202B33
 }
 
 .cm-searching {
@@ -707,4 +710,3 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 #intercom-container {
   display: none !important;
 }
-
