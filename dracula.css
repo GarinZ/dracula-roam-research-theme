@@ -521,185 +521,195 @@ code {
   color: var(--foreground);
 }
 
-.cm {
+.rm-code-block {
   background-color: var(--background);
   color: var(--foreground);
   border: 2px solid var(--background2);
 }
 
-.cm-scrollbar-filler,
-.cm-gutter-filler {
+.cmt-scrollbar-filler,
+.cmt-gutter-filler {
   background-color: var(--background);
 }
 
-.cm-gutters {
+.cm-scroller .cm-gutters {
   border-right: 1px solid var(--background);
   background-color: var(--background);
 }
 
-.cm-linenumber {
+.cm-gutterElement {
   color: var(--comment);
 }
+.cm-gutterElement.cm-activeLineGutter {
+  background-color: var(--current-line) !important;
+}
 
-.cm-guttermarker {
+.cmt-guttermarker {
   color: var(--background);
 }
 
-.cm-guttermarker-subtle {
+.cmt-guttermarker-subtle {
   color: var(--comment);
 }
 
-.cm-cursor {
+.cmt-cursor {
   border-left: 1px solid var(--foreground);
 }
 
-.cm div.cm-secondarycursor {
+.cm div.cmt-secondarycursor {
   border-left: 1px solid var(--current-line);
 }
 
-.cm-fat-cursor .cm-cursor {
+.cmt-fat-cursor .cmt-cursor {
   background: var(--bullet-inner);  /* best guess */
   color: var(--bullet-outer);       /* best guess */
 }
 
-.cm-ruler {
+.cmt-ruler {
   border-left: 1px solid var(--current-line);
 }
 
-.cm-s-default .cm-header {
+.cmt-header {
   color: var(--blue);
 }
 
-.cm-s-default .cm-quote {
+.cmt-quote {
   color: var(--green);  /* best guess */
 }
 
-.cm-negative {
+.cmt-negative {
   color: var(--red);  /* best guess */
 }
 
-.cm-positive {
+.cmt-positive {
   color: var(--green);  /* best guess */
 }
 
-.cm-s-default .cm-keyword {
+.cmt-keyword {
   color: var(--pink);
 }
 
-.cm-s-default .cm-atom {
+.cmt-atom {
   color: var(--purple);
 }
 
-.cm-s-default .cm-number {
+.cmt-number {
  color: var(--purple);
 }
 
-.cm-s-default .cm-def {
+.cmt-def {
  color: var(--blue);
 }
 
-.cm-s-default .cm-variable-2 {
+.cmt-variable-2 {
  color: var(--orange);
 }
 
-.cm-s-default .cm-variable-3,
-.cm-s-default .cm-type {
+.cmt-variable-3,
+.cmt-typeName {
  color: var(--green);
 }
 
-.cm-s-default .cm-comment {
+.cmt-comment {
   color: var(--comment);
 }
 
-.cm-s-default .cm-string {
+.cmt-string {
   color: var(--yellow);
 }
 
-.cm-s-default .cm-string-2 {
+.cmt-string-2 {
   color: var(--yellow);  /* best guess */
 }
 
-.cm-s-default .cm-meta {
+.cmt-meta {
   color: var(--bullet-outer);  /* best guess */
 }
 
-.cm-s-default .cm-qualifier {
+.cmt-qualifier {
   color: var(--green);
 }
 
-.cm-s-default .cm-builtin {
+.cmt-builtin {
   color: var(--green);
 }
 
-.cm-s-default .cm-bracket {
+.cmt-bracket {
   color: var(--bullet-inner);  /* best guess */
 }
 
-.cm-s-default .cm-tag {
+.cmt-labelName {
   color: var(--pink);
 }
 
-.cm-s-default .cm-attribute {
+.cmt-attribute {
   color: var(--green);
 }
 
-.cm-s-default .cm-hr {
+.cmt-hr {
   color: var(--bullet-inner);  /* best guess */
 }
 
-.cm-s-default .cm-link {
+.cmt-link {
   color: var(--blue);
 }
 
-.cm-s-default .cm-error {
+.cmt-error {
   color: var(--foreground);
 }
 
-.cm-invalidchar {
+.cmt-invalidchar {
   color: var(--red);
 }
 
-div.cm span.cm-matchingbracket {
+div.cm span.cmt-matchingbracket {
   color: var(--foreground);
 }
 
-div.cm span.cm-nonmatchingbracket {
+div.cm span.cmt-nonmatchingbracket {
   color: var(--red);
 }
 
-.cm-matchingtag {
+.cmt-matchingtag {
  background: var(--orange);  /* best guess */
 }
 
-.cm-activeline-background {
- background: var(--current-line);
+.cm-activeLine.cm-line {
+ background: var(--current-line) !important;
 }
 
-.cm-selected {
+.cmt-selected {
   background: var(--current-line);
 }
 
-.cm-focused .cm-selected {
+.cmt-focused .cmt-selected {
   background: var(--current-line);
 }
 
-.cm-line::selection,
-.cm-line>span::selection,
-.cm-line>span>span::selection {
+.cmt-line::selection,
+.cmt-line>span::selection,
+.cmt-line>span>span::selection {
   background: var(--current-line);
 }
 
-.cm-line::-moz-selection,
-.cm-line>span::-moz-selection,
-.cm-line>span>span::-moz-selection {
+.cmt-line::-moz-selection,
+.cmt-line>span::-moz-selection,
+.cmt-line>span>span::-moz-selection {
   background: var(--current-line);
 }
-.cm-line {
-    color: #202B33
-}
 
-.cm-searching {
+.cmt-searching {
   background-color: var(--dark-yellow);  /* best guess */
+}
+
+.ͼi {
+    color: var(--green);
+}
+.ͼc {
+    color: var(--purple);
+}
+.ͼl {
+    color: var(--comment);
 }
  
 
